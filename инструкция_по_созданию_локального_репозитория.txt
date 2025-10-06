@@ -1,0 +1,10 @@
+Инструкция по созданию локального репозитория:
+1) Создать папку где будет храниться репозиторий (В моём случае это папка "GitProjects", находящаяся по пути "/Users/yolo/GitProjects") 
+2) Через терминал перейти в эту папку (cd /Users/yolo/GitProjects)
+3) Скопировать ссылку ssh с репозитория github 
+4) В терминале выполнить команду git clone с этой ссылкой (В моём случае команда: git clone git@github.com:ssebyanin/sebyanin_sa_607-22.git)
+5) Перейти в полученную папку (В моём случае это: cd sebyanin_sa_607-22)
+6) Проверить связь командой git remote -v (
+Результат: 
+origin	git@github.com:ssebyanin/sebyanin_sa_607-22.git (fetch)
+origin	git@github.com:ssebyanin/sebyanin_sa_607-22.git (push))
